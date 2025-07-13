@@ -1,0 +1,21 @@
+{
+  "name": "strap-on-openapi-express",
+  "version": "1.0.0",
+  "description": "Use case with express server",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "strap-on-openapi": "^1.0.43",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

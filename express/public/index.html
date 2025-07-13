@@ -1,0 +1,28 @@
+<head>
+    <title>Strap-On OpenApi Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div>
+        Cars:
+        <div id="cars"></div>
+    </div>
+    <script>
+        window.onload = async () =>  {
+            const res = await axios({
+                method: 'get',
+                url: '/api/cars/get',
+            });
+            if(!res.data){
+                alert("Something went wrong")
+                return;
+            }
+            const parentDiv = document.querySelector("#cars");
+            for(const car of res.data){
+                const div = document.createElement('div');
+                div.innerText = `${car.make}:${car.name}`
+                parentDiv.appendChild(div);
+            }
+        }
+    </script>
+</body>
