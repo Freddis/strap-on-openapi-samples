@@ -16,6 +16,7 @@ app.get('/',(req,res) => {
     res.send(html)
 })
 console.log("Sample page: http://localhost:3000/")
-console.log("API docs: http://localhost:3000/stoplight")
+console.log("API docs (Stoplight): http://localhost:3000/stoplight")
+console.log("API docs (Swagger): http://localhost:3000/swagger")
 app.listen(3000);
 

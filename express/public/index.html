@@ -8,6 +8,8 @@
         <div id="cars"></div>
     </div>
     <script>
+        // This is not how you supposed to use Strap-On OpenAPI on the client side
+        // But since express is backend framework, I had to put something together
         window.onload = async () =>  {
             const res = await axios({
                 method: 'get',
