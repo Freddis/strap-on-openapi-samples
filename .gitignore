@@ -2,3 +2,5 @@ node_modules
 .tanstack
 .nitro
 .output
+.vscode
+.DS_Store
