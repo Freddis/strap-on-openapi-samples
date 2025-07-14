@@ -19,7 +19,7 @@
     "jsonwebtoken": "^9.0.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "strap-on-openapi": "^1.0.42"
+    "strap-on-openapi": "^1.0.44"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.11",
